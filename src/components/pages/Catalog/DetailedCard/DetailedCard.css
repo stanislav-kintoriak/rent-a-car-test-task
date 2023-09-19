@@ -1,0 +1,192 @@
+.DetailedCard_container {
+  border-radius: 24px;
+  width: 541px;
+  background: #fff;
+  padding: 40px;
+  position: relative;
+}
+
+.DetailedCard_close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+
+  top: 16px;
+  right: 16px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  transition: all 5ms var(--transition);
+  cursor: pointer;
+}
+
+.DetailedCard_close svg {
+  width: 24px;
+  height: 24px;
+}
+
+.DetailedCard_close:hover,
+.DetailedCard_close:focus {
+  scale: 1.05;
+}
+
+.DetailedCard__img {
+  width: 469px;
+  height: 314px;
+  border-radius: 14px;
+}
+
+.DetailedCard__title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  color: #121417;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.DetailedCard__title span {
+  color: #3470ff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.DetailedCard__dateils {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+
+  color: rgba(18, 20, 23, 0.5);
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.DetailedCard__dateils ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.DetailedCard__dateils > ul span {
+  color: rgba(18, 20, 23, 0.5);
+}
+
+.DetailedCard__description {
+  max-width: 461px;
+  color: #121417;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.DetailedCard__accessories-title,
+.DetailedCard__rental-title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+
+  color: #121417;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.DetailedCard__accessories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+  max-width: 460px;
+  color: rgba(18, 20, 23, 0.5);
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.DetailedCard__accessories-list li:last-child .span {
+  display: none;
+}
+
+.DetailedCard__rental-list div {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.DetailedCard__rental-list li {
+  display: flex;
+  padding: 7px 14px;
+  border-radius: 35px;
+  background: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+
+  color: #363535;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+}
+
+.DetailedCard__rental-list > li span {
+  padding-left: 4px;
+  color: #3470ff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+}
+
+.DetailedCard__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 168px;
+  margin-top: 28px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #3470ff;
+  border: inherit;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  color: var(--White, #fff);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all 5ms var(--transition);
+}
+
+.DetailedCard__btn:hover,
+.DetailedCard__btn:focus {
+  background: #0b44cd;
+}

@@ -1,0 +1,39 @@
+.Favorites__container {
+  display: flex;
+  position: relative;
+
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-bottom: 150px;
+  background-color: #ffffff;
+  padding-top: 150px;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Favorites__empty {
+    display: flex;
+  position: absolute;
+  top: 10vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Favorites__empty img {
+  width: 30vw;
+  height: auto;
+}
+
+
+.Favorites__advice{
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 111.9%;
+    pointer-events: none;
+    text-align: center;
+    color:#313131;
+}

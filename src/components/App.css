@@ -1,0 +1,6 @@
+.App__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3470ff;
+}

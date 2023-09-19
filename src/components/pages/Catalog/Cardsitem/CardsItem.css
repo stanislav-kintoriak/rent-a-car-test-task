@@ -1,0 +1,197 @@
+.CardsItem__item {
+  display: flex;
+  width: 274px;
+  height: 426px;
+  flex-direction: column;
+  margin-bottom: 50px;
+  position: relative;
+
+  transition: all 0.5s;
+}
+
+.CardsItem__imgblock {
+  display: flex;
+  width: 274px;
+  height: 260px;
+  background-color: #3470ff;
+  overflow: hidden;
+  border-radius: 14px;
+  justify-content: center;
+}
+
+.CardsItem__imgblock img {
+  height: auto;
+  pointer-events: none;
+}
+
+.CardsItem__title-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.CardsItem__title,
+.CardsItem__title-block p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #121417;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+.CardsItem__title span {
+  margin-left: 4px;
+  color: #3470ff;
+}
+
+.CardsItem__dateils {
+  display: flex;
+  align-content: flex-start;
+  height: 82px;
+  gap: 6px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  color: rgba(18, 20, 23, 0.5);
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.CardsItem__btn {
+  display: flex;
+  width: 274px;
+  height: 44px;
+  padding: 12px 99px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #3470ff;
+  border: inherit;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  color: var(--White, #fff);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all 5ms var(--transition);
+}
+
+.CardsItem__btn:hover,
+.CardsItem__btn:focus {
+  background: #0b44cd;
+}
+
+.CardsItem__btn span {
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.CardsItem__btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.CardsItem__btn:hover .btn-text-two {
+  top: 50%;
+}
+
+.CardsItem__checkbox {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.CardsItem__imgblock-container input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+}
+
+.CardsItem__imgblock-container {
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  transition: 100ms;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+
+  transition: 100ms;
+  animation: dislike_effect 400ms ease;
+  fill: none;
+}
+
+.CardsItem__imgblock-container {
+  animation: like_effect 400ms ease;
+}
+
+.CardsItem__imgblock-container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes like_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dislike_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

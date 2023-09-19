@@ -1,0 +1,65 @@
+.Header__container {
+  display: flex;
+  width: 100%;
+  padding: 20px 115px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3470ff;
+}
+
+.Header_logo {
+  width: 120px;
+  padding: 0px 20px;
+  transition: all 5ms var(--transition);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.Header_logo:hover,
+.Header_logo:focus {
+  scale: 1.05;
+}
+
+.Header_paragraph {
+  color: #3470ff;
+  font-family: 'Manrope';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  transition: all 5ms var(--transition);
+  cursor: pointer;
+}
+
+.Header__header {
+  display: flex;
+  gap: 30px;
+}
+
+.Header_link {
+  color: white;
+  font-family: 'Manrope';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  transition: all 5ms var(--transition);
+  cursor: pointer;
+}
+
+.Header_link-active {
+  color: white;
+  font-family: 'Manrope';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  transition: all 5ms var(--transition);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Header_link:hover,
+.Header_link:focus {
+  scale: 1.1;
+}
