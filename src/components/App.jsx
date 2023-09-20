@@ -15,7 +15,7 @@ export const App = () => {
     setTimeout(() => {
       dispatch(fetchAllCards());
     }, 1000);
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App__container">

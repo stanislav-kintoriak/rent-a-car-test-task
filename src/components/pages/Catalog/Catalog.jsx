@@ -31,7 +31,7 @@ export const Catalog = () => {
       dispatch(fetchCards(page));
       dispatch(fetchAllCards());
     }, 1000);
-  }, []);
+  }, [dispatch,page]);
 
   let cardList = useSelector(getCards);
   const numberOfCards = useSelector(cardsInList);

@@ -27,7 +27,7 @@ export const Favorites = () => {
       setLoading(false);
       dispatch(fetchCards());
     }, 1000);
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {}, [favorites]);
 
