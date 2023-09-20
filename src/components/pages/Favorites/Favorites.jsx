@@ -77,7 +77,7 @@ export const Favorites = () => {
       ) : (
         <div className="Favorites__empty">
           <img className="Favorites__placeholder" src={img_empty} alt="empty list" />
-          <p className="Favorites__advice">Please return to Catalog and add car to your Favorites</p>
+          <p className="Favorites__advice">Please return to Catalog and add a car to your Favorites</p>
         </div>
       )}
 
