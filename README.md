@@ -6,15 +6,15 @@ The car rental website was made in React with adaptive layout.It consists from 3
 
 Page Home
 
-![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/assets/screen-home.png)
+![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/blob/main/assets/screen-home.png)
 
 Page Catalog
 
-![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/assets/screen-catalog.png)
+![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/blob/main/assets/screen-catalog.png)
 
 Page Favorites
 
-![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/assets/screen-favorites.png)
+![image](https://github.com/stanislav-kintoriak/rent-a-car-test-task/blob/main/assets/screen-favorites.png)
 
 
 Функціонал та дизайн сайту було реалізовано відповідно наданому для виконання тестовому завданню.
@@ -25,7 +25,7 @@ Page Favorites
 - домашня сторінка з загальним описом послуг, що надає компанія. Стилізація та оформлення на ваш розсуд.
 - сторінка, що містить каталог автівок різної комплектації, які користувач може фільтрувати за маркою, ціною за годину оренди авто та кількістю кілометрів, яку подолав автомобіль під час його експлуатації (пробіг).
 - сторінка з оголошеннями, які були додані користувачем в улюблені Зовнішній вигляд програми повинен складатися з cайдбару та області перегляду.
-- 
+
 ### Технічне завдання
 
 1. Відповідно до макету(https://www.figma.com/file/XhC8FSCfAkraEF5l7Hx4fL/Test?type=design&node-id=0-1&mode=design&t=Ed3b0heFOmE2LSXU-0) реалізувати картку оголошення про здачу авто в оренду.
